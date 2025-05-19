@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафедра Прикладной информатики и математики ЗабГУ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .section {
+            padding: 60px 0;
+        }
+        .teacher-card {
+            margin-bottom: 30px;
+        }
+        .university-logo {
+            max-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Кафедра ПИМ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about-university">Об университете</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about-department">О кафедре</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#specialties">Специальности</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#admission">Поступление</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#teachers">Преподаватели</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#links">Ссылки</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- О университете -->
+        <section id="about-university" class="section bg-light">
+            <div class="container">
+                <h2 class="mb-4">Забайкальский государственный университет</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <img src="ZabGU_logo.png" alt="Логотип ЗабГУ" class="img-fluid university-logo">
+                    </div>
+                    <div class="col-md-8">
+                        <p>ЗабГУ - крупнейший вуз Забайкальского края, основанный в 1974 году...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- О кафедре -->
+        <section id="about-department" class="section">
+            <div class="container">
+                <h2 class="mb-4">О кафедре</h2>
+                <p>Кафедра прикладной информатики и математики существует с 1998 года...</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Направления деятельности</h4>
+                        <ul>
+                            <li>Научно-исследовательская работа</li>
+                            <li>Подготовка IT-специалистов</li>
+                            <li>Разработка программного обеспечения</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="kafedra.jpg" alt="Фото кафедры" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Специальности -->
+        <section id="specialties" class="section bg-light">
+            <div class="container">
+                <h2 class="mb-4">Будущие специальности</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Прикладная информатика</h5>
+                                <p class="card-text">Подготовка IT-специалистов широкого профиля...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Добавить другие специальности -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Как поступить -->
+        <section id="admission" class="section">
+            <div class="container">
+                <h2 class="mb-4">Как поступить</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Этапы поступления</h4>
+                        <ol>
+                            <li>Подача документов</li>
+                            <li>Сдача вступительных испытаний</li>
+                            <li>Зачисление</li>
+                        </ol>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Контакты приемной комиссии</h5>
+                                <p>Телефон: +7 (3022) 12-34-56<br>Email: admission@zabgu.ru</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Преподаватели -->
+        <section id="teachers" class="section bg-light">
+            <div class="container">
+                <h2 class="mb-4">Состав преподавателей</h2>
+                <div class="row">
+                    <div class="col-md-4 teacher-card">
+                        <div class="card">
+                            <img src="Glazirina.jpg" class="card-img-top" alt="Глазырина И.П">
+                            <div class="card-body">
+                                <h5 class="card-title">Глазырина И.П</h5>
+                                <p class="card-text">Доктор экономических наук, профессор, заведующий кафедрой;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 teacher-card">
+                        <div class="card">
+                            <img src="Jakovleva.jpg" class="card-img-top" alt="Яковлева Л.Л">
+                            <div class="card-body">
+                                <h5 class="card-title">Яковлева Л.Л</h5>
+                                <p class="card-text">доцент, заместитель заведующего кафедрой;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ссылки -->
+        <section id="links" class="section">
+            <div class="container">
+                <h2 class="mb-4">Полезные ссылки</h2>
+                <div class="list-group">
+                    <a href="https://zabgu.ru" class="list-group-item list-group-item-action">Официальный сайт ЗабГУ</a>
+                    <a href="#" class="list-group-item list-group-item-action">Расписание занятий</a>
+                    <a href="#" class="list-group-item list-group-item-action">Электронная библиотека</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>© 2023 Кафедра Прикладной информатики и математики ЗабГУ</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p>Контакты: example@zabgu.ru<br>Телефон: +7 (3022) 12-34-56</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
