@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ракетный Кликер</title>
+    <link rel="stylesheet" href="321.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Ракетный Кликер</h1>
+        <p>Кликай по ракете, чтобы запустить её в космос!</p>
+        <div class="rocket-container">
+            <img src="image0.png" class="rocket" id="rocket" alt="Ракета">
+        <div class="rocket-fire" id="rocket-fire"></div>
+            </div>
+        <div class="stats">
+            <p>Высота: <span id="height">0</span> метров</p>
+            <p>Скорость: <span id="speed">0</span> м/с</p>
+            <p>Кликов: <span id="clicks">0</span></p>
+            <p>Рекорд: <span id="record">0</span> метров</p>
+        </div>
+           </div> 
+        
+    <div class="upgrades">
+        <h3>Улучшения</h3>
+        <div class="upgrade fuel-upgrade" id="fuel-upgrade" data-cost="500" data-level="0">
+            <h4>Топливо</h4>
+            <p>Уменьшает потерю скорости на 10% за уровень</p>
+            <p>Уровень: <span class="level">0</span></p>
+            <p>Требуется: <span class="required-height">500</span> м</p>
+            <button class="buy-btn">Улучшить (500)</button>
+        </div>
+    <div class="upgrade">
+        <h5>Прогресс</h5>
+        <p>Шкала прогресса: <span class="progress-bar"></span></p>
+        <p>Улучшение: <span class="upgrade-cost"></span></p>
+        </div>   
+    <div class="upgrade hull-upgrade" id="hull-upgrade" data-cost="1000" data-level="0">
+        <h4>Корпус</h4>
+        <p>Увеличивает начальную скорость на 5% за уровень</p>
+        <p>Уровень: <span class="level">0</span></p>
+        <p>Требуется: <span class="required-height">1000</span> м</p>
+        <button class="buy-btn">Улучшить (1000)</button>
+        </div>
+    </div>
+
+
+    <div class="rocket-fire" id="rocket-fire"></div>
+        
+        <button id="reset">Перезапуск</button>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
